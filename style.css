@@ -1,0 +1,47 @@
+.calcolatrice{
+    background-color: black;
+    text-align: center;
+    width: 17%;
+    margin: 50px auto;
+    padding: 20px 0 30px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.numberButtons, .operatorButtons{
+    display: inline-block;
+}
+.containerInputs{
+    display: flex;
+}
+.numberButtons{
+    width: 70%;
+
+}
+h1{
+   
+    background-color: white;
+    text-align: end;
+    padding: 5px 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+.box{
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 8px;
+    width: 20%;
+    line-height: 45px;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+
+}
+.box.op{
+    width: 40%;
+}
+
+.box:hover{
+    border-color: white;
+}
